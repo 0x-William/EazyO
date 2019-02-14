@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IFC-Ef-fW5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GradientBackground" translatesAutoresizingMaskIntoConstraints="NO" id="NKI-Yo-d3m">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="466"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" secondItem="NKI-Yo-d3m" secondAttribute="width" multiplier="466:375" id="rYW-bI-veK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clouds" translatesAutoresizingMaskIntoConstraints="NO" id="T2n-0b-qXz">
+                                        <rect key="frame" x="0.0" y="0.0" width="1258" height="144.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="T2n-0b-qXz" secondAttribute="height" multiplier="1149:132" id="qKo-fw-D5T"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EazyoLogo" translatesAutoresizingMaskIntoConstraints="NO" id="M9x-t0-XIb">
+                                        <rect key="frame" x="112" y="314" width="151" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" secondItem="M9x-t0-XIb" secondAttribute="width" multiplier="37:141" id="qwG-sB-nvG"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="M9x-t0-XIb" firstAttribute="centerX" secondItem="IFC-Ef-fW5" secondAttribute="centerX" id="5XX-LL-TFb"/>
+                                    <constraint firstItem="T2n-0b-qXz" firstAttribute="height" secondItem="IFC-Ef-fW5" secondAttribute="height" multiplier="0.217" id="A3L-lL-Xpq"/>
+                                    <constraint firstItem="NKI-Yo-d3m" firstAttribute="top" secondItem="IFC-Ef-fW5" secondAttribute="top" id="Inp-Uo-cQw"/>
+                                    <constraint firstItem="M9x-t0-XIb" firstAttribute="top" secondItem="IFC-Ef-fW5" secondAttribute="bottom" multiplier="0.471" id="Obd-N6-Fo8"/>
+                                    <constraint firstItem="T2n-0b-qXz" firstAttribute="leading" secondItem="IFC-Ef-fW5" secondAttribute="leading" id="S5U-k2-19Y"/>
+                                    <constraint firstItem="T2n-0b-qXz" firstAttribute="top" secondItem="IFC-Ef-fW5" secondAttribute="top" id="dFA-hy-2SV"/>
+                                    <constraint firstItem="NKI-Yo-d3m" firstAttribute="width" secondItem="IFC-Ef-fW5" secondAttribute="width" id="nfZ-aT-G7f"/>
+                                    <constraint firstItem="NKI-Yo-d3m" firstAttribute="leading" secondItem="IFC-Ef-fW5" secondAttribute="leading" id="qxh-zH-sEJ"/>
+                                    <constraint firstItem="M9x-t0-XIb" firstAttribute="width" secondItem="IFC-Ef-fW5" secondAttribute="width" multiplier="0.403" id="r6Q-mS-p0L"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IFC-Ef-fW5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="048-YY-7DO"/>
+                            <constraint firstItem="IFC-Ef-fW5" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="6DM-fw-xxa"/>
+                            <constraint firstItem="IFC-Ef-fW5" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="bPs-Fq-mLH"/>
+                            <constraint firstItem="IFC-Ef-fW5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="nh2-6U-5c2"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Clouds" width="1149" height="132"/>
+        <image name="EazyoLogo" width="141" height="37"/>
+        <image name="GradientBackground" width="375" height="466"/>
+    </resources>
+</document>

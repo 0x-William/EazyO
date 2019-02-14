@@ -1,0 +1,6 @@
+framework module Pods_EazyoTests {
+  umbrella header "Pods-EazyoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
